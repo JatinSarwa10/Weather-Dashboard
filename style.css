@@ -1,5 +1,4 @@
-
-        * {
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -12,6 +11,31 @@
             min-height: 100vh;
             padding: 20px;
         }
+        /* Light mode overrides */
+body.light-mode {
+    background: linear-gradient(135deg, #ecf0f1 0%, #dcdde1 100%);
+    color: #2c3e50;
+}
+
+body.light-mode .card,
+body.light-mode .search-input,
+body.light-mode .hourly-item {
+    background: rgba(0, 0, 0, 0.05);
+    color: #2c3e50;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .search-input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+body.light-mode .toggle-switch {
+    background: #ccc;
+}
+
+body.light-mode .toggle-switch.active {
+    background: #2ecc71;
+}
 
         .container {
             max-width: 1200px;
@@ -321,4 +345,3 @@
                 font-size: 56px;
             }
         }
-    

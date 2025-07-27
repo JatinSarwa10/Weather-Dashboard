@@ -27,157 +27,71 @@
 
         <div class="main-grid">
             <div class="card time-card">
-                <div class="city-name">Athens</div>
-                <div class="time" id="current-time">09:03</div>
-                <div class="date" id="current-date">Thursday, 31 Aug</div>
+                <div class="city-name">Loading...</div>
+                <div class="time" id="current-time">--:--</div>
+                <div class="date" id="current-date">-- ---, ----</div>
             </div>
 
             <div class="card">
                 <div class="weather-main">
                     <div class="temperature-section">
-                        <div class="current-temp">24°C</div>
-                        <div class="feels-like">Feels like: 22°C</div>
+                        <div class="current-temp">--°C</div>
+                        <div class="feels-like">Feels like: --°C</div>
                         <div class="sun-times">
                             <div class="sun-time">
                                 <span>🌅</span>
-                                <span>Sunrise 06:37 AM</span>
+                                <span>Sunrise --:-- --</span>
                             </div>
                             <div class="sun-time">
                                 <span>🌇</span>
-                                <span>Sunset 20:37 AM</span>
+                                <span>Sunset --:-- --</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="weather-icon">☀️</div>
+                    <div class="weather-icon">⏳</div>
 
                     <div class="weather-details">
                         <div class="detail-item">
                             <div class="detail-icon">💧</div>
-                            <div class="detail-value">41%</div>
+                            <div class="detail-value">--%</div>
                             <div class="detail-label">Humidity</div>
                         </div>
                         <div class="detail-item">
                             <div class="detail-icon">💨</div>
-                            <div class="detail-value">2km/h</div>
+                            <div class="detail-value">--km/h</div>
                             <div class="detail-label">Wind Speed</div>
                         </div>
                         <div class="detail-item">
                             <div class="detail-icon">🕐</div>
-                            <div class="detail-value">997hPa</div>
+                            <div class="detail-value">---hPa</div>
                             <div class="detail-label">Pressure</div>
                         </div>
                         <div class="detail-item">
                             <div class="detail-icon">☀️</div>
-                            <div class="detail-value">8</div>
+                            <div class="detail-value">-</div>
                             <div class="detail-label">UV</div>
                         </div>
                     </div>
                 </div>
-                <div style="text-align: center; margin-top: 20px; font-size: 24px; font-weight: 600;">
-                    Sunny
-                </div>
+                <div class="weather-condition">Loading...</div>
             </div>
         </div>
 
         <div class="forecast-grid">
             <div class="card">
                 <div class="forecast-title">5 Days Forecast:</div>
-                <div class="forecast-item">
-                    <div class="forecast-day">
-                        <div class="forecast-icon">🌤️</div>
-                        <div>
-                            <div>Friday, 1 Sep</div>
-                        </div>
-                    </div>
-                    <div class="forecast-temp">20°C</div>
-                </div>
-                <div class="forecast-item">
-                    <div class="forecast-day">
-                        <div class="forecast-icon">🌤️</div>
-                        <div>
-                            <div>Saturday, 2 Sep</div>
-                        </div>
-                    </div>
-                    <div class="forecast-temp">22°C</div>
-                </div>
-                <div class="forecast-item">
-                    <div class="forecast-day">
-                        <div class="forecast-icon">☀️</div>
-                        <div>
-                            <div>Sunday, 3 Sep</div>
-                        </div>
-                    </div>
-                    <div class="forecast-temp">27°C</div>
-                </div>
-                <div class="forecast-item">
-                    <div class="forecast-day">
-                        <div class="forecast-icon">🌤️</div>
-                        <div>
-                            <div>Monday, 4 Sep</div>
-                        </div>
-                    </div>
-                    <div class="forecast-temp">18°C</div>
-                </div>
-                <div class="forecast-item">
-                    <div class="forecast-day">
-                        <div class="forecast-icon">🌧️</div>
-                        <div>
-                            <div>Tuesday, 5 Sep</div>
-                        </div>
-                    </div>
-                    <div class="forecast-temp">16°C</div>
+                <div class="forecast-loading">Loading forecast data...</div>
+                <div class="forecast-items">
+                    <!-- Forecast items will be inserted here by JavaScript -->
                 </div>
             </div>
 
             <div class="card">
                 <div class="forecast-title">Hourly Forecast:</div>
+                <div class="hourly-loading">Loading hourly data...</div>
                 <div class="hourly-forecast">
-                    <div class="hourly-item">
-                        <div class="hourly-time">12:00</div>
-                        <div class="hourly-icon">☀️</div>
-                        <div class="hourly-temp">26°C</div>
-                        <div class="wind-speed">
-                            <span class="wind-arrow">↗</span>
-                            <span>3km/h</span>
-                        </div>
-                    </div>
-                    <div class="hourly-item">
-                        <div class="hourly-time">15:00</div>
-                        <div class="hourly-icon">☀️</div>
-                        <div class="hourly-temp">27°C</div>
-                        <div class="wind-speed">
-                            <span class="wind-arrow">→</span>
-                            <span>2km/h</span>
-                        </div>
-                    </div>
-                    <div class="hourly-item">
-                        <div class="hourly-time">18:00</div>
-                        <div class="hourly-icon">🌤️</div>
-                        <div class="hourly-temp">27°C</div>
-                        <div class="wind-speed">
-                            <span class="wind-arrow">↗</span>
-                            <span>2km/h</span>
-                        </div>
-                    </div>
-                    <div class="hourly-item">
-                        <div class="hourly-time">21:00</div>
-                        <div class="hourly-icon">🌤️</div>
-                        <div class="hourly-temp">25°C</div>
-                        <div class="wind-speed">
-                            <span class="wind-arrow">↗</span>
-                            <span>3km/h</span>
-                        </div>
-                    </div>
-                    <div class="hourly-item">
-                        <div class="hourly-time">00:00</div>
-                        <div class="hourly-icon">☀️</div>
-                        <div class="hourly-temp">22°C</div>
-                        <div class="wind-speed">
-                            <span class="wind-arrow">↗</span>
-                            <span>3km/h</span>
-                        </div>
-                    </div>
+                    <!-- Hourly items will be inserted here by JavaScript -->
                 </div>
             </div>
         </div>
