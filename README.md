@@ -2,7 +2,8 @@
 
 A simple and responsive Weather Dashboard built with HTML, CSS, and JavaScript that allows users to search for real-time weather information of any city using the **[WeatherAPI](https://www.weatherapi.com/)**.
 
-# Demo screenshot![images](https://github.com/user-attachments/assets/67d5d138-4b69-4b14-811e-f8039e47f6a9)
+# Demo screenshot
+![images](https://github.com/user-attachments/assets/67d5d138-4b69-4b14-811e-f8039e47f6a9)
 
 
 
